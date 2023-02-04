@@ -1,0 +1,41 @@
+.section {
+  background-color: #20254d;
+}
+
+.abc {
+  font-size: 56px;
+  position: relative;
+  color: white;
+  margin-top: 20px;
+}
+
+.abcd {
+  font-size: 36px;
+  position: relative;
+  color: green;
+  margin-top: 10px;
+}
+
+
+
+.elem {
+  background: blueviolet;
+  width: 300px;
+  height: 150px;
+  margin: 20px auto;
+  transition: 500ms linear;
+}
+
+  .elem:hover {
+    transform: scale(1.1);
+  }
+
+.elem {
+  background: blueviolet;
+  width: 300px;
+  height: 150px;
+}
+
+  .elem:hover {
+    opacity: 0.5;
+  }
